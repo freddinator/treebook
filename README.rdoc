@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to do stuff!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. Grab a copy of the repo
+2. Run the <tt>bundle</tt> command
+3. Run <tt>rake db:create all</tt> to generate databases
+4. Run <tt>rake db:migrate</tt> to migrate structure
+5. Unicorns!
